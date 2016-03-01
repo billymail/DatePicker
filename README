@@ -1,0 +1,16 @@
+ # DatePicker for MooTools
+ ##usage
+    <input name="purchase_date"
+        id="PurchaseDate"
+        class="DatePicker"
+        value="${item/purchase_date}"
+        alt='{  "format":"yyyy-mm-dd",
+                "yearStart": 1953,
+                "yearRange": 100,
+                "yearOrder":'desc'
+            }' />
+ *  common alt values:
+ *      format:'mm/dd/yyyy','yyyy-mm-dd','yyyy.mm.dd','mm.dd.yyyy';
+ *      yearRange: int;
+ *      yearStart:YYYY;
+ *      yearOrder:'desc','asc','mid';
