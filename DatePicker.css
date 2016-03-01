@@ -1,0 +1,8 @@
+.DatePicker { background: #fff url(/js/widgets/DatePicker/images/calendar.png) no-repeat center right }
+div.DatePicker-Wrapper { background-color: #fff; border: 1px solid #444; box-shadow:1px 1px 2px #ccc }
+div.DatePicker-Wrapper td { padding:0; background-color:#eee }
+div.DatePicker-Wrapper .nav { background-color:#e0e0e0 }
+div.DatePicker-Wrapper .dayName { background-color:#e0e0e0 }
+div.DatePicker-Wrapper td:hover { font-weight:bold; background-color:palegoldenrod }
+div.DatePicker-Wrapper .current { background-color: #E0E0E0; color:#2E2E2E; font-weight:bold }
+div.DatePicker-Wrapper select { padding:0; font-size:10px }
